@@ -1785,6 +1785,12 @@ body.is-revealed .scroll-indicator {
   border-top: 0
 }
 
+.lux-card__col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .lux-card__rule {
   height: 1px;
   background: linear-gradient(90deg, transparent, rgba(231, 201, 122, .5), transparent)
